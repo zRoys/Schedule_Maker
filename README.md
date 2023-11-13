@@ -3,9 +3,9 @@ Este repositorio tiene un archivo que busca recomendaciones de profesores en [ht
 
 ### La salida tiene 
 
-Comentario: 
-Materia: 
-Fecha: 
+**Comentario:** 
+**Materia:** 
+**Fecha:** 
 
 
 Este repositorio tiene un directorio llamado HORARIO_MAKER donde tien un archivo en jupiternotebook llamado Find.ipynb y otro directorio llamado data 
