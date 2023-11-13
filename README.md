@@ -1,5 +1,12 @@
 # Schedule_Maker
-Este repositorio tiene un archivo que busca recomendaciones de profesores en [https://foroupiicsa.net] sin tener que andar poniendo el nombre del profesor uno por uno 
+Este repositorio tiene un archivo que busca recomendaciones de profesores en [https://foroupiicsa.net/diccionario/buscar/] sin tener que andar poniendo el nombre del profesor uno por uno 
+
+### La salida tiene 
+
+Comentario: 
+Materia: 
+Fecha: 
+
 
 Este repositorio tiene un directorio llamado HORARIO_MAKER donde tien un archivo en jupiternotebook llamado Find.ipynb y otro directorio llamado data 
 
@@ -12,4 +19,9 @@ Este repositorio tiene un directorio llamado HORARIO_MAKER donde tien un archivo
 ## CASOS A TENER EN CUENTA 
 
 1. Si se presenta un error despues de correr el codigo es posible que en el archivo .csv algun nombre de un profesor tenga algun simbolo como un punto "." o tenga abrebiaciones como Lic o Doc habra que removerlos
-2. En el codigo esta integrada una libreria en la cual se puede leer el sentimiento de lo que dice el comentario respecto al profesor, esta libreria suelta una calificacion entre mas alta mejor, pero tiene un fallo ya que no funciona correctamente con el idioma español asi que la puntuacion puede tener un sesgo
+2. En el codigo esta integrada una libreria en la cual se puede leer el sentimiento de lo que dice el comentario respecto al profesor, esta libreria suelta una calificacion entre mas alta mejor, pero tiene un fallo ya que no funciona correctamente con el idioma español asi que la puntuacion puede tener un sesgo, ejemplo de como podria ser un sesgo:
+
+(Promedio de puntuaciones: -0.2939
+****CALIFICACION GENERAL****: Extremadamente negativo)
+
+   
